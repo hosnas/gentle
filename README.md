@@ -9,7 +9,17 @@ There are three ways to install Gentle.
 
 2. Use the [Docker](https://www.docker.com/) image. Just run ```docker run -P lowerquality/gentle```. This works on all platforms supported by Docker.
 
-3. Download the source code and run ```./install.sh```. Then run ```python3 serve.py``` to start the server. This works on Mac and Linux.
+3. From Sourse:
+
+Install Prerequisites
+
+```
+sudo apt-get install build-essential
+sudo apt-get install gfortran
+sudo apt install python-minimal
+```
+
+Then download the source code and run ```./install.sh```. Then run ```python3 serve.py``` to start the server. 
 
 ## Using Gentle
 
